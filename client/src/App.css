@@ -7,7 +7,7 @@
 
 body{
   font-family: Blorado, sans-serif;
-  background-color: #fffdfc;
+  background-color: #fffdfc !important;
   margin: 0;
   padding: 0;
   width: 100%;
