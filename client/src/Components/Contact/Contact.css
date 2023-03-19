@@ -78,10 +78,7 @@ textarea.form-control {
   margin: 0;
   padding: 0;
 }
-a > p:hover {
-  color: #545454;
-  text-decoration: underline;
-}
+
 .contact-page p svg {
   margin-left: 1rem;
   animation-name: forward;

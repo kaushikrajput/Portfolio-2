@@ -27,8 +27,13 @@
   padding: 1.4rem 2rem;
   display: flex;
   align-items: flex-end;
-  border-radius: 9px;
+  border-radius: 4px;
   break-inside: avoid;
+  border: 1px solid #d4f0ff;
+}
+.card-section a:hover{
+  transform: translateY(-7.5px);
+  transition: 1.2s cubic-bezier(.17, .85, .438, .99);
 }
 .card-style::before {
   width: 100%;
@@ -91,17 +96,21 @@
   animation-fill-mode: both;
   column-gap: 1.5em;
 }
+.card-section a {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
 
 .work-section .to-resume-page p {
-  color: #545454;
+  color: #000;
   font-size: 15px;
   font-weight: 100;
   letter-spacing: normal;
 }
-a > p:hover {
-  color: #545454;
+a:hover {
   text-decoration: underline;
 }
+
 .work-section p svg {
   margin-left: 1rem;
   animation-name: forward;

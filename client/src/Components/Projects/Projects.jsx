@@ -32,7 +32,7 @@ const Work = () => {
               </svg>
             </p>
           </Link>
-        </div>F
+        </div>
       </div>
     </div>
 

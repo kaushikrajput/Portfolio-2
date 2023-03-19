@@ -112,17 +112,17 @@ p > a:hover::after {
   border-radius: 4px;
 }
 
-.about-section .to-contact-page p {
+.about-section .to-work-page p {
   margin: 50px 0 0;
-  color: #545454;
+  color: #000;
   font-size: 15px;
   font-weight: 100;
   letter-spacing: normal;
 }
-a > p:hover {
-  color: #545454;
+a:hover {
   text-decoration: underline;
 }
+
 .about-section p svg {
   margin-left: 1rem;
   animation-name: forward;
@@ -130,6 +130,7 @@ a > p:hover {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 @media only screen and (max-width: 991px) {
   .about-section {
     padding: 50px 0;
@@ -140,8 +141,8 @@ a > p:hover {
   .text-card p {
     font-size: 16px;
   }
-  
-  .imgs{
+
+  .imgs {
     text-align: center;
     display: flex;
     position: relative;
@@ -160,7 +161,7 @@ a > p:hover {
   }
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .about-section .main-heading {
     font-size: 40px;
     text-align: center;
