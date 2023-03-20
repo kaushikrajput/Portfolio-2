@@ -1,4 +1,5 @@
 import React from 'react'
+import '../About/About.css'
 import './Footer.css'
 
 const Footer = () => {
@@ -16,11 +17,11 @@ const Footer = () => {
                     </a>
 
                     <a href="https://www.linkedin.com/in/kaushik-rajput-5b0bab211/" target="_blank" rel="noreferrer">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i className="fa-brands fa-linkedin-in"></i>
                     </a>
 
                     <a href="https://www.facebook.com/kaushik.rajput.332/" target="_blank" rel="noreferrer">
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
                     </a>
                 </div>
             </footer>

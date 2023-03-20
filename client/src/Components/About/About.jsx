@@ -36,13 +36,13 @@ const About = () => {
                             </div>
                         </div>
                         <div className='to-work-page'>
-                            <Link to='/work'>
-                                <p className=' mb-5 mt-5'>Lets Go To My Projects.
-                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                                        <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
-                                    </svg>
-                                </p>
-                            </Link>
+                                <Link to='/work'>
+                                    <p className=' mb-5 mt-5'>Lets Go To My Projects.
+                                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
+                                        </svg>
+                                    </p>
+                                </Link>
                         </div>
                     </div>
                 </div>
