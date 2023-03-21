@@ -16,7 +16,7 @@ const Work = () => {
             <a href='https://skinfotechies.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  >
               <img src="assets/project.jpeg" className='img-style img-fluid' alt="" />
             </a>
-            <a href='https://travell-worldd.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  >
+            <a href='https://tourtravelworld.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  >
               <img src="assets/project2.png" className='img-style img-fluid' alt="" />
             </a>
             <a href='https://healthy-day.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  >
