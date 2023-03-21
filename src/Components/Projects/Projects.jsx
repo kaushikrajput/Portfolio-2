@@ -6,7 +6,7 @@ const Work = () => {
 
   return (
 
-    <div className='work-section pd' id='work'>
+    <section className='work-section ' id='work'>
       <div className='container'>
         <div className='row align-items-center justify-content-center'>
           <div className='col-md-12'>
@@ -23,18 +23,19 @@ const Work = () => {
               <img src="assets/project3.png" className='img-style img-fluid' alt="" />
             </a>
           </div>
-        </div>
-        <div className='to-resume-page'>
-          <Link to='/resume'>
-            <p className='mb-5'>Lets Go To My Resume.
-              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
-              </svg>
-            </p>
-          </Link>
+
+          <div className='to-resume-page'>
+            <Link to='/resume'>
+              <p className='mb-5'>Lets Go To My Resume.
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                  <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
+                </svg>
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     /*<div className='col-lg-5 '>
         <div className='project-content'>
